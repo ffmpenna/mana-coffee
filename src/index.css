@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Serif:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flat-shadow-primary {
+    @apply shadow-[4px_4px_0px_0px_#2c4f27];
+  }
+  .flat-shadow-large {
+    @apply shadow-[8px_8px_0px_0px_#2c4f27];
+  }
+  .flat-shadow-secondary {
+    @apply shadow-[4px_4px_0px_0px_#efdec0];
+  }
+  .text-soft-serve {
+    @apply [letter-spacing:-0.04em] [line-height:0.85];
+  }
+  .text-stroke-white {
+    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+body {
+  @apply bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed;
+}
