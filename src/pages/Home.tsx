@@ -122,7 +122,7 @@ const Home = () => {
       {/* Origin Story Section */}
       <section className="bg-primary py-32 overflow-hidden border-y border-white/5">
         <div className="max-w-7xl mx-auto px-8">
-          <h2 className="text-white font-headline font-black text-center text-5xl sm:text-6xl md:text-7xl text-soft-serve mb-12 drop-shadow-[4px_4px_0px_#a4650a] uppercase break-words">
+          <h2 className="text-white font-headline font-black text-start md:text-center text-5xl sm:text-6xl md:text-7xl text-soft-serve mb-12 drop-shadow-[4px_4px_0px_#a4650a] uppercase break-words">
             {ORIGIN_STORY.title}
           </h2>
           <div className="flex flex-col md:flex-row-reverse items-center gap-20">
