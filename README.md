@@ -5,6 +5,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
+💡 Nota do Desenvolvedor: O Mana Coffee é uma marca e cafeteria estritamente fictícia. Este projeto foi criado exclusivamente como uma peça de portfólio para demonstrar habilidades em desenvolvimento Front-End, arquitetura de UI/UX e implementação de design systems.
+
 Onde a tradição milenar coreana do Matcha encontra o pulso brutalista de São Paulo. **Mana Coffee** é uma experiência tátil, visual e sensorial localizada no coração do Bom Retiro e Pinheiros.
 
 ## ✨ Características
