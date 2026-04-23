@@ -80,8 +80,12 @@ export const HIGHLIGHTS = [
 
 export const ORIGIN_STORY = {
   title: 'Mana Coffee + Namu Matcha',
-  description:
-    'Quando a busca pelo bem-estar encontra a cena urbana de São Paulo, nascem parcerias com propósito. A união entre a Mana Coffee e a Namu — a primeira marca do Brasil dedicada exclusivamente ao Matcha — traz para a sua xícara muito mais do que um ingrediente de excelência. \n Compartilhamos de uma filosofia conjunta: a transparência total, desde o cultivo orgânico nas montanhas de Hadong, na Coreia do Sul, até o cuidado no preparo da sua bebida. \nAcreditamos que um alimento de verdade deve nutrir o corpo, fazer parte de uma cadeia honesta e respeitar o meio ambiente. Venha até a Mana Coffee provar a harmonia perfeita entre o que consumimos e a saúde do nosso corpo, em cada gole do mais puro Matcha orgânico.',
+  description: [
+    'Quando a busca pelo bem-estar encontra a cena urbana de São Paulo, nascem parcerias com propósito. A união entre a Mana Coffee e a Namu — a primeira marca do Brasil dedicada exclusivamente ao Matcha — traz para a sua xícara muito mais do que um ingrediente de excelência.',
+    'Compartilhamos de uma filosofia conjunta: a transparência total, desde o cultivo orgânico nas montanhas de Hadong, na Coreia do Sul, até o cuidado no preparo da sua bebida.',
+    'Acreditamos que um alimento de verdade deve nutrir o corpo, fazer parte de uma cadeia honesta e respeitar o meio ambiente.',
+    'Venha até a Mana Coffee provar a harmonia perfeita entre o que consumimos e a saúde do nosso corpo, em cada gole do mais puro Matcha orgânico.',
+  ],
   image:
     'https://lh3.googleusercontent.com/aida-public/AB6AXuAjU4eNpBauHipGgPCr-JtnqhxncUjkivlJgWCxKwT0AoekmMgEKUrqI2ZFNzb6yTDJd6KruQ53REwUXkS1gDoCwAlS6aOoro7MXEUqpsopan6AX5X-J9jgQcjh9Ser-Npz5IJJFYYhiF2GzXgR1c_jrweB7mR3yICGZSkVTcAmUfWcPCDov1IWrqoC_EW9oeEa_Mbnj2RpvfRM4_cOyCwIPVOspeQy5n5F5sPt0Pb85h6Sgp_DpGdKsvQNZGimmVlaXg-UC7YSlbI',
   stats: [

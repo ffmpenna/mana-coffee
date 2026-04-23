@@ -128,7 +128,11 @@ const Home = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-20">
             <div className="md:w-1/2">
               <p className="text-white/80 text-xl leading-relaxed mb-10">
-                {ORIGIN_STORY.description}
+                {ORIGIN_STORY.description.map((paragraph, index) => (
+                  <p key={index} className="mb-6">
+                    {paragraph}
+                  </p>
+                ))}
               </p>
               <div className="grid grid-cols-2 gap-8 mb-12">
                 {ORIGIN_STORY.stats.map((stat, index) => (

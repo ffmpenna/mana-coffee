@@ -83,7 +83,7 @@ const Menu = () => {
                 key={item.id}
                 className="group flex flex-row gap-5 md:gap-8 items-center sm:items-start"
               >
-                <div className="w-28 sm:w-48 md:w-56 shrink-0 aspect-square rounded-xl overflow-hidden shadow-[4px_4px_0px_0px_#2c4f27] md:shadow-[6px_6px_0px_0px_#2c4f27]">
+                <div className="w-40 sm:w-50 md:w-56 shrink-0 aspect-square rounded-xl overflow-hidden shadow-[4px_4px_0px_0px_#2c4f27] md:shadow-[6px_6px_0px_0px_#2c4f27]">
                   <img
                     src={item.image}
                     alt={item.name}
@@ -95,7 +95,7 @@ const Menu = () => {
                   <h3 className="text-lg sm:text-2xl md:text-3xl font-bold font-headline text-primary leading-tight mb-2 md:mb-3 transition-colors group-hover:text-primary/80">
                     {item.name}
                   </h3>
-                  <p className="text-on-surface-variant text-xs sm:text-sm md:text-base leading-relaxed line-clamp-3 sm:line-clamp-none">
+                  <p className="text-on-surface-variant text-xs sm:text-sm md:text-base leading-relaxed sm:line-clamp-none">
                     {item.description}
                   </p>
                 </div>
@@ -123,7 +123,7 @@ const Menu = () => {
                 key={item.id}
                 className="group flex flex-row gap-5 md:gap-8 items-center sm:items-start"
               >
-                <div className="w-28 sm:w-48 md:w-56 shrink-0 aspect-square rounded-xl overflow-hidden shadow-[4px_4px_0px_0px_#2c4f27] md:shadow-[6px_6px_0px_0px_#2c4f27]">
+                <div className="w-40 sm:w-50 md:w-56 shrink-0 aspect-square rounded-xl overflow-hidden shadow-[4px_4px_0px_0px_#2c4f27] md:shadow-[6px_6px_0px_0px_#2c4f27]">
                   <img
                     src={item.image}
                     alt={item.name}
@@ -135,7 +135,7 @@ const Menu = () => {
                   <h3 className="text-lg sm:text-2xl md:text-3xl font-bold font-headline text-primary leading-tight mb-2 md:mb-3 transition-colors group-hover:text-primary/80">
                     {item.name}
                   </h3>
-                  <p className="text-on-surface-variant text-xs sm:text-sm md:text-base leading-relaxed line-clamp-3 sm:line-clamp-none">
+                  <p className="text-on-surface-variant text-xs sm:text-sm md:text-base leading-relaxed sm:line-clamp-none">
                     {item.description}
                   </p>
                 </div>
