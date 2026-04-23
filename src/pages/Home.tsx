@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
-import HighlightCard from '../components/features/HighlightCard';
 import { HIGHLIGHTS, ORIGIN_STORY, SOCIAL_FEED } from '../data/mockData';
+import HighlightCard from '../components/features/HighlightCard';
+import LoyaltyCard from '../components/ui/LoyaltySection';
 
 const Home = () => {
   return (
@@ -68,6 +69,40 @@ const Home = () => {
               image={item.image}
             />
           ))}
+        </div>
+      </section>
+
+      <section className="py-12 md:py-32 px-4 sm:px-6 md:px-8 max-w-7xl mx-auto overflow-hidden">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-center bg-surface-container-low/50 rounded-2xl p-5 sm:p-10 lg:p-16 border md:border-2 border-primary/10 shadow-[4px_4px_0px_0px_#2c4f27] md:shadow-[12px_12px_0px_0px_#2c4f27]">
+          {/* Lado Esquerdo - Textos e Info */}
+          <div className="flex flex-col w-full lg:w-1/2">
+            <div className="self-start bg-primary text-on-primary px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest mb-4 md:mb-8 shadow-[2px_2px_0px_0px_#2c4f27]">
+              Clube de Fidelidade
+            </div>
+
+            <h2 className="font-headline font-black text-4xl sm:text-5xl text-primary mb-4 md:mb-6 uppercase leading-none tracking-tighter break-words">
+              Ser MANATIC tem seus benefícios
+            </h2>
+
+            <p className="text-sm sm:text-base md:text-lg text-on-surface-variant leading-relaxed mb-8 md:mb-10 max-w-lg">
+              A cada visita à nossa cafeteria, você acumula 1 ponto no seu cartão.
+              Colecione todos para trocar por uma bebida da sua escolha!
+            </p>
+
+            {/* Cards de Regras */}
+            <div className="flex text-on-primary bg-primary w-fit mx-auto p-6 gap-10 rounded-md border-2 border-on-primary shadow-[4px_4px_0px_0px_#2c4f27] items-center">
+              <div className="text-center">
+                <p className="font-black text-5xl sm:text-7xl">10</p>
+                <p className="text-xs sm:text-lg text-on-primary/80">pontos</p>
+              </div>
+              <p className="font-black border-on-primary text-3xl sm:text-3xl uppercase">
+                Bebida
+                <br />
+                Grátis
+              </p>
+            </div>
+          </div>
+          <LoyaltyCard />
         </div>
       </section>
 
